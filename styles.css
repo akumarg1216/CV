@@ -1,0 +1,354 @@
+/* WHOLE WEBSITE */
+
+body {
+    overflow-x: hidden;
+}
+
+h3{
+    font-family: 'Lobster Two',
+    cursive;
+    color:#fff;
+    font-size: 2.3rem;
+    font-weight: bolder;
+    padding-bottom: 2%;
+    text-align: center;
+}
+
+h5{
+    color:blue;
+    font-family: 'Cinzel',
+    serif;
+    font-size:1.5rem;
+    text-align: left;
+
+}
+/* INTRO PART */
+#title{
+    background-color:#803cf0
+}
+
+.container-fluid{
+    height:700px;
+}
+
+/* NAVBAR */
+
+.navbar{
+    padding: 30px 8px 6px 12px;
+}
+
+.navbar-brand{
+    color:white;
+    font-weight: bold;
+    font-size: 1.3rem;
+    font-weight: 500;
+    font-family:'Playfair Display',
+    serif;
+}
+
+.nav-link{
+    color:white;
+    font-weight: bold;
+    font-size: 1.3rem;
+    font-style: italic;
+    font-weight: 400;
+    font-family:'Playfair Display',
+    serif;
+}
+
+.nav-link:hover{
+    transform: scale(0.8);
+}
+
+.nav-item {
+    padding: 0 12px 0 12px;
+    /*font-family: 'Great Vibes',
+    cursive;*/
+}
+
+.navbar-toggler{
+    color:white;
+}
+
+/* TITLE IMAGE */
+
+.title-image{
+    padding:3% 0% 1% 0;
+    margin-left: -15px;
+    /* 728*485*/
+    height:600px;
+    width:1010px;
+    opacity: 0.7;
+}
+
+.image-container {
+    position: relative;
+}
+
+.text-block {
+    position: absolute;
+    bottom: 8px;
+    left: 0px;
+     background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding:210px 80px 110px 140px;
+    width:1010px;
+    line-height: 2;
+    letter-spacing: 2px;
+} 
+
+.text-block h1{
+    font-family:'Playfair Display',
+    serif;
+    font-size:3.4rem;
+    font-weight: 900;
+}
+
+.text-block h3{
+    font-family: 'Ubuntu',
+    sans-serif;
+    font-size:2rem;
+    text-align: left;
+}
+
+.text-block p{
+    font-family:'Playfair Display',
+    serif;
+    font-size: 1.5rem;
+    font-style: oblique;
+    font-weight: lighter;
+}
+
+/* INTRO RIGHT PART */
+
+.Profile {
+    position:absolute;
+    right:100px;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+.info-container{
+    padding:0% 5% 0% 5%;
+}
+/*
+.info-container h4{
+    color:white;
+    position:absolute;
+    bottom:350px;
+    right:40px;
+    font-family:'Playfair Display',
+    serif;
+    font-size: 1.8rem;
+}
+
+.info-container p{
+    display: inline-block;
+    text-align: center;
+    color:#fff;
+    position: relative;
+    top:250px;
+    left:60px;
+    font-size: 1.2rem;
+    margin:3% 3%;    
+}
+
+.info-container h6{
+    position: relative;
+    top:260px;
+    left:60px;
+    text-align:center;
+    color:#fff;
+    font-size: 1rem;
+} */
+
+/* INFO-CONTAINER */
+
+.info-title{
+    position: relative;
+    left:50%;
+    top:32%;
+    font-size: 1rem;
+    text-align: center;
+    color:white;
+}
+
+/* SOCIAL ICONS TITLE */
+
+.contact-box{
+    position: absolute;
+    top:70%;
+    left:35%;
+}
+
+.icon{
+    color:#fff;
+    margin:1rem;
+}
+
+.icon:hover{
+    transform: scale(1.25);
+    opacity: 0.6;
+}
+
+.cv-button{
+    position: absolute;
+    top:85%;
+    left:45%;
+}
+.cv-button:hover {
+    background-color: RoyalBlue;
+    transform: scale(0.8);
+}
+
+/* BODY - 1 */
+#about{
+    background-color:#fff;
+    padding:5% 15% 0% 15%;
+    line-height:2;
+}
+
+.about-me p{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.4rem;
+}
+
+/* BODY - SKILLS */
+
+#skills-languages{
+    padding:5% 15% 0% 15%;
+    background-color: #dadff2;
+    ;
+    line-height: 2;
+}
+
+/* BODY - EDUCATION */
+
+#education{
+    background-color:#fff;
+    padding:5% 15% 0% 15%;
+    line-height:2;
+}
+
+.learnings{
+    padding-top: 2%;
+}
+
+#testimonials{
+    background-color:#dadff2;
+    padding: 3% 15%;
+}
+.test-img{
+    padding-top: 2.2%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height:600px;
+}
+
+#testimonials p{
+    color:blue;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Courgette', cursive;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 1px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #4abab8;
+    border-radius: 1px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #7c83e6;
+}
+
+/* FOOTER */
+
+#footer{
+   padding:5% 15% 5% 10%;
+}
+
+#footer h3{
+    color:#2346de;
+    font-weight: bold;
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: 400;
+    font-family:'Playfair Display',
+    serif;
+    text-align: left;
+}
+
+.foo{
+    color: black;
+    margin: 0.5rem;
+}
+
+.foo:hover {
+    transform: scale(1.25);
+    opacity: 0.6;
+}
+
+.footer-middle{
+    position:relative;
+    left:100px;
+    top:25px;
+    text-align: center;
+}
+
+.footer-middle p{
+    font-weight: 350;
+    color:blue;
+    font-family: 'Courgette',
+    cursive;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.top-arrow{
+    position: relative;
+    left:300px;
+    top:40px;
+}
+
+.footer-button:hover{
+    transform: scale(0.7);
+    background-color: #5e5c61;
+}
+
+/* COPYRIGHT */
+
+.copyright {
+    padding:1% 15% 1% 14%;
+    background-color: blue;
+    opacity:0.7;
+    text-align: center;
+}
+
+.copyright-para{
+    margin-left: 20%;
+    color:white;
+    font-weight: bold;
+    font-size: 1.3rem;
+    font-style: italic;
+    font-weight: 400;
+    font-family:'Playfair Display',
+    serif;
+}
